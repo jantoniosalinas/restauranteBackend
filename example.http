@@ -1,0 +1,16 @@
+# @name create-message
+POST http://localhost:5000/messages
+Content-Type: application/json
+
+{
+    "date": "2021-10-02",
+    "hour": "16:00",
+    "personNumber": "4",
+    "name": "Thamara",
+    "lastName": "Salinas Padilla",
+    "mphone": "2222868396",
+    "email": "thamy@gmail.com"
+}
+
+###
+GET http://localhost:5000/messages
